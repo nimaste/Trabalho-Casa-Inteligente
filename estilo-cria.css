@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
+
+@media screen and (min-width: 769px) {
+    body{
+        color:white;
+        background-color: #00233f;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+    h1{
+        text-align: center;
+        font-size:70px;
+        font-weight: bold;
+    }
+    .interno{
+        border:10px double #1d71a1;
+        display:inline-block;
+        border-radius: 40px;
+        min-width: 400px;
+        max-width:400px ;
+        padding: 5px;
+    }
+    .cria{
+        text-align:center;
+        margin-bottom:30px;
+        
+    }
+    .cria h2{
+        font-weight: bold;
+        font-size:50px;
+    }
+    .cria p{
+        font-weight: bold;
+        font-size:40px;
+        color:#1d71a1
+    }
+    .back {
+        margin-top:10px;
+        text-decoration: none;
+        border: 5px solid #1d71a1;
+        border-style: double;
+        border-radius: 40px;
+        max-width: 100px;
+        min-width: 61%;
+        position: sticky;
+        left: 20%;
+        display: inline-block;
+        transition: 0.25s;
+        text-align: center;
+        color:white
+    }
+
+    .back:hover {
+        font-size: 27px;
+        background-color: #1d71a1;
+        border-color: #1d71a1;
+        box-shadow: 1px 2px 3px #000;
+    }
+    /*Computer*/
+}
+@media screen and (max-width: 768px) {
+    body{
+        color:white;
+        background-color: #00233f;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+    h1{
+        text-align: center;
+        font-size:70px;
+        font-weight: bold;
+        display: block;
+    }
+    .interno{
+        border:10px double #1d71a1;
+        display:inline-block;
+        border-radius: 40px;
+        min-width: 350px;
+        max-width:350px ;
+    }
+    .cria{
+        margin: auto;
+        text-align:center;
+        margin-bottom:30px;
+        max-width: 400px;
+    }
+    .cria h2{
+        font-weight: bold;
+        font-size:50px;
+    }
+    .cria p{
+        font-weight: bold;
+        font-size:40px;
+        color:#1d71a1;
+    }
+    .back {
+        margin: auto;
+        margin-top:10px;
+        text-decoration: none;
+        border: 5px solid #1d71a1;
+        border-style: double;
+        border-radius: 40px;
+        max-width: 400px;
+        min-width: 61%;
+        position: sticky;
+        left: 20%;
+        display: inline-block;
+        text-align: center;
+        color:white;
+        font-size: 30px;
+    }
+}
