@@ -48,7 +48,7 @@
         border-style: double;
         border-radius: 40px;
         max-width: 100px;
-        min-width: 61%;
+        min-width: 50px;
         position: sticky;
         left: 20%;
         display: inline-block;
