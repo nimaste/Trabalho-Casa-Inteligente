@@ -47,7 +47,7 @@
         border: 5px solid #1d71a1;
         border-style: double;
         border-radius: 40px;
-        max-width: 400px;
+        max-width: 100px;
         min-width: 61%;
         position: sticky;
         left: 20%;
@@ -58,7 +58,6 @@
     }
 
     .back:hover {
-        font-size: 27px;
         background-color: #1d71a1;
         border-color: #1d71a1;
         box-shadow: 1px 2px 3px #000;
