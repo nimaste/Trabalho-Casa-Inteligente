@@ -34,19 +34,19 @@
         color:#1d71a1
     }
     .back {
-        margin-top:10px;
+        margin: 10px auto;
         text-decoration: none;
         border: 5px solid #1d71a1;
         border-style: double;
         border-radius: 40px;
-        max-width: 100px;
-        min-width: 61%;
+        max-width: 400px;
         position: sticky;
         left: 20%;
-        display: inline-block;
+        display: block;
         transition: 0.25s;
         text-align: center;
-        color:white
+        color:white;
+        font-size:24px
     }
 
     .back:hover {
