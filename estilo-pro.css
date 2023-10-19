@@ -55,6 +55,7 @@
         text-align: center;
         color:white;
         transition: 0.25s;
+        font-size:24px
     }
 
     .back:hover {
