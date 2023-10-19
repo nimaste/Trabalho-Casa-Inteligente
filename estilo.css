@@ -314,6 +314,7 @@
         left: 20%;
         display: inline-block;
         transition: 0.5s;
+        margin: 15px auto;
     }
 
     .back:hover {
